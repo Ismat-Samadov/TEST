@@ -1,8 +1,10 @@
 # report_automation
+we can automate our reporting with two way:
 
-this is automation of reporting which daily_report_scheduled.py file running background and report_daily.py file running with taskschd.msc.
+which daily_report_scheduled.py file running in background with loop.
+also we can do this with taskschd.msc which  report_daily.py file belong second way.
 
-here are detailed description for running in windows report_daily.py:
+here are detailed description for running report_daily.py in windows:
 
 
 To ensure that your script runs daily, you can utilize external task scheduling tools such as Windows Task Scheduler (on Windows) or cron (on Unix-like systems) to run your Python script at the desired time each day. These tools are designed for this purpose and are more reliable than embedding the scheduling logic within your script.
